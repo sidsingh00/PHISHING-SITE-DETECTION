@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">                                
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phish Trap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel= stylesheet href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel= stylesheet href="{{ url_for('static', filename='stylesheet.css')}}"   >
+
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.2/dist/iconify-icon.min.js"></script>
+
+    <script src="{{ url_for('static', filename='javascript.js')}}"></script>
+
+</head>
+
+<body class="desktop-1">
+    
+    <img class="logo" src="static/logo.png" alt="Group 3" />
+
+    <div class="footer">
+
+        <span class="pop-nor-white-18 about-us">
+            ABOUT US
+        </span>
+
+        <span class="pop-nor-20 contact-us">
+            contact.us@phishtrap.com
+        </span>
+
+        <span class="copyright">
+            <iconify-icon icon="ph:copyright" style="color: #fffbeb;"></iconify-icon>
+        </span>
+
+        <span class="pop-nor-20 rights-reserved">
+            2023 Phish trap All Rights Reserved
+        </span>
+
+    </div>
+
+    <div class="home-page">
+        
+        <div class="machine-learning open-sb-white-28">
+            Machine Learning based, real-time phishing and fraudulent website detection with highest accuracy
+        </div>
+
+        <div class="content pop-nor-white-18-2">
+            Phish trap uses machine learning algorithms to mimic how a person would look at, understand, and draw a verdict on a suspicious website. Our algorithm extracts and analyzes different features of suspected webpages for effective identification of large-scale phishing offenses and learns from datasets containing millions of text samples for high accuracy detection.
+        </div>
+
+        <div class="enter-url open-sb-white-22">
+            Enter the URL you would like to scan
+        </div>
+        
+        <hr class="check-line-1">
+        <form action="{{ url_for('checkbutton')}}" method="post"> 
+        <input type="text" name="url" placeholder="Example : www.example.com" value="{{url_enter}}" class="pop-l-white-16 check-2" required="required" > 
+        
+        <button type="submit" class="check-button button-hover open-sb-blue-20" value="Predict" >
+            getprediction
+        </button>
+
+        </form>
+       
+        
+
+        
+        
+        
+        
+    </div>
+</body>
+</html>

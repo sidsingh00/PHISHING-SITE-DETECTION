@@ -1,0 +1,560 @@
+:root {
+  --black: rgba(37, 23, 73, 1);
+  --pt-blue: rgba(38, 49, 89, 1);
+  --pt-ice: rgba(73, 85, 121, 1);
+  --pt-white: rgba(255, 251, 235, 1);
+
+  --font-family-open_sans: "Open Sans";
+  --font-family-poppins: "Poppins";
+}
+
+/*Classes*/
+
+.pop-l-white-16 {
+  color: var(--pt-white);
+  font-family: var(--font-family-poppins);
+  font-size: 16px;
+  font-weight: 200;
+  font-style: normal;
+  
+  letter-spacing: 1px;
+}
+
+.pop-nor-white-14 {
+  color: var(--pt-white);
+  font-family: var(--font-family-poppins);
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pop-nor-white-16 {
+  color: var(--pt-white);
+  font-family: var(--font-family-poppins);
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pop-nor-white-13 {
+  color: var(--pt-white);
+
+  font-family: var(--font-family-poppins);
+  font-size: 13px;
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+.pop-m-white-13 {
+  color: var(--pt-white);
+
+  font-family: var(--font-family-poppins);
+  font-size: 13px;
+
+  font-weight: 500;
+  font-style: normal;
+}
+
+.pop-nor-white-18 {
+  color: var(--pt-white);
+  font-family: var(--font-family-poppins);
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 5px;
+}
+
+.pop-nor-white-18-2 {
+  color: var(--pt-white);
+  font-family: var(--font-family-poppins);
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.open-sb-white-22 {
+  color: var(--pt-white);
+  font-family: var(--font-family-open_sans);
+  font-size: 22px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.pop-nor-20 {
+  font-family: var(--font-family-poppins);
+  color: var(--pt-white);
+  letter-spacing: 0px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.open-sb-blue-20 {
+  color: var(--pt-ice);
+  font-family: var(--font-family-open_sans);
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.open-sb-white-28 {
+  color: var(--pt-white);
+  font-family: var(--font-family-open_sans);
+  font-size: 28px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.open-sb-white-30 {
+  color: var(--pt-white);
+  font-family: var (--font-family open_sans);
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.desktop-1 {
+  background-color: var(--pt-white);
+  margin: 0;
+  height: 1023px;
+  /* mix-blend-mode: normal;
+     overflow-x: hidden; */
+  position: relative;
+  width: 100vw;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.logo {
+  background-color: transparent;
+  height: 60px;
+  left: 198px;
+  position: absolute;
+  top: 20px;
+}
+
+.footer {
+  background-color: var(--pt-blue);
+  width: 100vw;
+  height: 123px;
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  box-shadow: 0 -1px 40px rgba(38, 49, 89, 0.5);
+}
+
+.about-us {
+  position: absolute;
+  left: 176px;
+  top: 48px;
+}
+
+.contact-us {
+  position: absolute;
+  top: 50px;
+  left: 450px;
+}
+
+.copyright {
+  position: absolute;
+  left: 1020px;
+  top: 56px;
+}
+
+.rights-reserved {
+  position: absolute;
+  top: 52px;
+  left: 1050px;
+}
+
+.home-page {
+  background-color: var(--pt-ice);
+  width: 87.6vw;
+  height: 692px;
+  position: absolute;
+  justify-content: center;
+  left: 90px;
+  top: 114px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 40px rgba(73, 85, 121, 0.85);
+}
+
+.wobbly {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 830px;
+  display: block;
+  height: auto;
+  border-radius: 0 5px 5px 0;
+}
+
+.welcome-img {
+    max-width: 585px;
+    height: auto;
+    position: absolute;
+    display: block;
+  right: -20px;
+  bottom: -10px;
+}
+
+.url-looks-fishy {
+    background-color: transparent;
+    height: auto;
+    left: 118px;
+    position: absolute;
+    text-align: left;
+    top: 82px;
+    width: 542px;
+}
+
+.why-take-a-risk-then {
+    background-color: transparent;
+    height: auto;
+    left: 118px;
+    position: absolute;
+    text-align: left;
+    top: 190px;
+    width: 335px;
+}
+
+.do-you-know{  
+    color: var(--pt-white);  
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 118px;    
+    position: absolute;
+    text-align: justify;
+    top: 245px;
+    width: 420px;
+}
+
+.phishing-is{
+    color: var(--pt-white);
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 118px;
+    position: absolute;
+    text-align: justify;
+    top: 360px;
+    width: 420px;
+}
+
+.login-now-to-proceed {  
+    color: var(--pt-white);  
+    font-style: normal;  
+    font-weight: 400;
+    height: auto;
+    left: 118px;
+    position: absolute;
+    text-align: justify;
+    top: 500px;
+    width: 203px;
+}
+
+.login-button{
+    background-color: var(--pt-white);
+    color: var(--pt-ice);
+    border-radius: 5px;
+    border-style: none;
+    padding: 12px 42px 12px 42px;
+    text-align: center;
+    letter-spacing: 5px;
+    position: absolute;
+    left: 118px;
+    top: 570px;
+    transition-duration: 0.45s;    
+}
+
+.button-hover{
+    background-color: var(--pt-white);
+    color: var(--pt-ice);    
+}
+
+.button-hover:hover{
+    background-color: transparent;
+    color: var(--pt-white);
+    border-color: var(--pt-white);
+    border: 2px solid;
+    box-shadow: 0;   
+}
+
+.welcome-back{    
+    left: 230px;
+    position: absolute;
+    text-align: center;
+    top: 82px;    
+}
+
+.login-line-1{
+    width: 402px;
+    color: var(--pt-white);
+    position: absolute;
+    left: 140px;
+    top: 240px;
+}
+
+.username{
+    position: absolute;
+    left: 150px;
+    top: 220px;        
+    width: 365px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: var(--pt-white);
+}
+::placeholder{
+  color: var(--pt-white);
+  opacity: 0.7;
+}
+
+.user{
+  position: absolute;
+  left: 517px;
+  top: 220px;
+  color: var(--pt-white);
+}
+
+.login-line-2{
+  width: 402px;
+  color: var(--pt-white);
+  position: absolute;
+  left: 140px;
+  top: 402px;
+}
+
+.password{
+  position: absolute;
+  left: 150px;
+  top: 380px;        
+  width: 365px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: var(--pt-white);
+}
+
+.misc-1{
+  position: absolute;
+  top: 440px;
+}
+
+.remember-me{
+  position: absolute;
+  left: 200px;
+  min-height: 25px;
+  width: 100px;
+}
+
+.forgot-pass{
+  position: absolute;
+  left: 400px;
+  width: 150px;
+}
+
+.pass{
+  position: absolute;
+  left: 517px;
+  top: 382px;
+  color: var(--pt-white);
+}
+
+.login-button-2{
+  background-color: var(--pt-white);
+  color: var(--pt-ice);
+  border-radius: 5px;
+  border-style: none;
+  padding: 12px 42px 12px 42px;
+  text-align: center;
+  letter-spacing: 5px;
+  position: absolute;
+  left: 250px;
+  top: 510px;
+  transition-duration: 0.45s;
+}
+
+.checkbox{
+  position: absolute;
+  top: -5px;
+  left: 160px;  
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+  background-color: var(--pt-white);
+}
+
+.dont-have-acc{
+  position: absolute;
+  top: 600px;
+  left: 220px;
+}
+
+.signup-link{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signup-img{
+  max-width: 650px;
+    height: auto;
+    position: absolute;
+    display: block;
+  right: -20px;
+  bottom: -10px;
+}
+
+.nice-to-meet{
+  left: 210px;
+  position: absolute;
+  text-align: center;
+  top: 82px; 
+}
+
+.already-have-acc{
+  position: absolute;
+  top: 600px;
+  left: 245px;
+}
+
+.pass-2{
+  position: absolute;
+  left: 517px;
+  top: 305px;
+  color: var(--pt-white);
+}
+
+.signup-line-1{
+  width: 402px;
+    color: var(--pt-white);
+    position: absolute;
+    left: 140px;
+    top: 220px;
+}
+
+.username-2{
+  position: absolute;
+    left: 150px;
+    top: 200px;        
+    width: 365px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: var(--pt-white);
+}
+
+.user-2{
+  position: absolute;
+  left: 517px;
+  top: 200px;
+  color: var(--pt-white);
+}
+
+.signup-line-2{
+  width: 402px;
+    color: var(--pt-white);
+    position: absolute;
+    left: 140px;
+    top: 325px;
+}
+
+.password-2{
+  position: absolute;
+  left: 150px;
+  top: 305px;        
+  width: 365px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: var(--pt-white);
+}
+
+.signup-line-3{
+  width: 402px;
+    color: var(--pt-white);
+    position: absolute;
+    left: 140px;
+    top: 440px;
+}
+
+.password-3{
+  position: absolute;
+  left: 150px;
+  top: 420px;        
+  width: 365px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: var(--pt-white);
+}
+
+.pass-3{
+  position: absolute;
+  left: 517px;
+  top: 420px;
+  color: var(--pt-white);
+}
+
+.check-button{
+  background-color: var(--pt-white);
+    color: var(--pt-ice);
+    border-radius: 5px;
+    border-style: none;
+    padding: 12px 42px 12px 42px;
+    text-align: center;
+    letter-spacing: 5px;
+    position: absolute;
+    left: 950px;
+    top: 486px;
+    transition-duration: 0.45s;
+}
+
+.machine-learning{
+  position: absolute;
+  left: 220px;
+  text-align: center;
+  top: 82px;
+  width: 875px;
+}
+
+.content{
+  position: absolute;
+  top: 220px;
+  left: 130px;
+  text-align: center;
+  width: 1060px;
+}
+
+.enter-url{
+  position: absolute;
+  top: 400px;
+  left: 470px;
+  text-align: center;  
+}
+
+.check-line-1{
+  width: 586px;
+    color: var(--pt-white);
+    position: absolute;
+    left: 240px;
+    top: 520px;
+}
+
+.check-2{
+  position: absolute;
+    left: 260px;
+    top: 500px;        
+    width: 365px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: var(--pt-white);
+}
